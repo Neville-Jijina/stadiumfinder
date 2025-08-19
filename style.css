@@ -117,6 +117,8 @@ nav a:visited{
     transition: all .5s;
 
     border-radius: 100px;
+
+    border-radius: 10px;
 }
 
 .top-text button:hover{
