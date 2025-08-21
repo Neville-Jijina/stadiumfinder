@@ -1,0 +1,88 @@
+/*
+SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*border-box makes it to where height and width are included in padding and border*/
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+    color: #343a40;
+    /* border-bottom: 10px solid #1c7ed6; */
+}
+
+/* HEADER */
+header{
+
+    font-family: "Inter", sans-serif;
+    font-weight: 646;
+
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 80px;
+    margin-top: 64px;
+    color: #343a40;
+
+    margin-bottom: 64px;
+}
+
+header h1{
+    margin-bottom: 32px;
+    font-size: 44px;
+    line-height: 1.1;
+}
+
+.header-text-box{
+    align-self: center;
+}
+.header-text{
+    line-height: 1.5;
+}
+
+header img{
+    height: 440px;
+    width: 440px;
+}
+
+/* ATTRACTIONS */
+
+.attraction-columns{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 80px;
+}
+
+h2{
+    margin-bottom: 48px;
+    font-size: 36px;
+    letter-spacing: -.5px;
+}
+
+.feature-icon{
+  width: 32px;
+  height: 32px;
+  margin-bottom: 16px;
+}
+
+.attraction-columns img{
+    margin-top: 12px;
+    width: 95%;
+}
+
+.attraction-text{
+    align-self: center;
+    text-align: center;
+    width: 95%;
+}

@@ -58,6 +58,7 @@ nav a{
 
 nav a:visited{
     text-decoration: none;
+    color: white;
 }
 
 /* Top Image */
