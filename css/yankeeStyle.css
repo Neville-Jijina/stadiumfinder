@@ -21,7 +21,7 @@ FONT SIZE SYSTEM (px)
 body{
     font-family: 'Inter', sans-serif;
     color: #343a40;
-    border-bottom: 15px solid #1c7ed6;
+    border-bottom: 15px solid black;
 }
 
 /* HEADER */
@@ -86,7 +86,6 @@ h2{
     height: 200px;
 }
 
-
 .attraction-text{
     align-self: center;
     text-align: center;
@@ -103,7 +102,7 @@ h2{
 }
 
 .food{
-  box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.07);
+  box-shadow: 0 20px 30px 0 rgba(0, 0, 0, .5);
   border-radius: 12px;   
 }
 
@@ -159,11 +158,11 @@ h3{
 .food-button button {
   display: inline-block;
   padding: 10px 50px;
-  color: #1c7ed6;
+  color: black;
   text-decoration: none;
   border-radius: 100px;
-  border: 3px solid #1c7ed6;
-  background: linear-gradient(to right, #1c7ed6 50%, transparent 50%);
+  border: 3px solid black;
+  background: linear-gradient(to right, black 50%, transparent 50%);
   background-size: 200% 100%;       /* twice the width so it can slide */
   background-position: right bottom;
   font-size: 14px;
