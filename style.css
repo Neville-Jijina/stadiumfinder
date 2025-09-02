@@ -9,8 +9,10 @@ FONT SIZE SYSTEM (px)
 *{
     margin: 0;
     padding: 0;
-    
+    box-sizing: border-box;
 }
+
+
 
 html{
     scroll-behavior: smooth;
@@ -147,11 +149,19 @@ button{
     align-items: center;
 }
 
+.logos {
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    gap: 40px;                             
+    justify-content: center;
+    row-gap: 1px; 
+}
+
 .logos a{
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-weight: 500;
-  font-style: normal;
+    font-style: normal;
     text-decoration: none;
     font-size: 20px;
     display: flex;
@@ -169,18 +179,9 @@ button img{
     object-fit: cover;
 }
 
-.logos{
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: center;
-    gap: 40px;
-    
-}
 
 button:hover{
     display: inline-block;
     /* border: 5px solid black; */
     filter: drop-shadow(0 0 10px #000);
 }
-
-
