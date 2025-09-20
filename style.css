@@ -32,7 +32,7 @@ p{
     justify-content: center;
     align-items: center;
     flex-shrink: 0;
-    gap: 700px;
+    /* gap: 700px; */
     padding: 25px 20px;
     /* margin-bottom: 10px; */
     height: 40px;
