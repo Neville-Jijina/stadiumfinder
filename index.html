@@ -30,10 +30,11 @@
 
                     <div class = "top-text">
                         <h4>Enjoy More Than the Game at the Game!</h4>
-
+<!-- 
                         <a href="#scroll">
                             <button>Explore Stadiums</button>
-                        </a>
+                        </a> -->
+                        <button id="exploreBtn">Explore Stadiums</button>
                     </div>
 
 
@@ -137,6 +138,12 @@
                 </div>
             </article>
         </div>
-            
+        <script>
+            document.getElementById("exploreBtn").addEventListener("click", function () {
+                document.getElementById("scroll").scrollIntoView({
+                    behavior: "smooth"
+                });
+            });
+        </script>
     </body>
 </html>
